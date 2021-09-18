@@ -33,6 +33,9 @@ dependencies:
   flushbar: ^1.5.0
   flutter_secure_storage: ^4.2.0
   image_picker: ^0.8.4
+  connectivity : ^3.0.3
+  provider : ^5.0.0
+  flutter_map : ^0.14.0
 
 
 dev_dependencies:
@@ -72,9 +75,9 @@ flutter:
         - asset: fonts/Raleway.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-    # - family: Sans
-    #   fonts:
-    #     - asset: fonts/Sans.ttf
+    - family: Ribeye
+      fonts:
+        - asset: fonts/Ribeye.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
